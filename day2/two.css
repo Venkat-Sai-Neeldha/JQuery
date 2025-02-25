@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+   background-color: rgb(210, 226, 226);
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: burlywood;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.menu{
+    display: none;
+}
+.menu:hover{
+    list-style: none;
+    background-color: blanchedalmond;
+    display: block;
+}
+.two img{
+    height: 300px;
+    width: 300px;
+}
+.two{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height: 50vh;
+    width: 100%;
+    
+}
+.animate{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+.three{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.carousel {
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: auto;
+}
+.carousel img {
+    width: 100%;
+    display: none;
+}
+.carousel img.active {
+    display: block;
+}
+.carousel-controls {
+    text-align: center;
+    margin-top: 10px;
+}
+.carousel-controls button {
+    padding: 5px 10px;
+    margin: 0 5px;
+}
+#f,#f1,.sl{
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+.carousel{
+    height: 40vh;
+}
+.carousel img{
+    height: 50vh;
+}
+.five{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
